@@ -1,0 +1,15 @@
+@import '../../styles/base.scss';
+
+.languageSwitcher {
+  padding: 5px;
+  border-radius: 5px;
+  border-color: $primary-color;
+  outline: none;
+  width: 150px;
+
+  &,
+  * {
+    color: $primary-color;
+    background-color: $background-color;
+  }
+}

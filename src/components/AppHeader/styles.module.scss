@@ -1,0 +1,11 @@
+@import '../../styles/base.scss';
+
+.header {
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $primary-color;
+  background-color: $background-color;
+}
